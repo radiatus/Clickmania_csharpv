@@ -1,0 +1,9 @@
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\bin\Debug\ClickmaniaFinal.exe.config
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\bin\Debug\ClickmaniaFinal.exe
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\bin\Debug\ClickmaniaFinal.pdb
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.csprojResolveAssemblyReference.cache
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.Form1.resources
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.Properties.Resources.resources
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.csproj.GenerateResource.Cache
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.exe
+E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.pdb

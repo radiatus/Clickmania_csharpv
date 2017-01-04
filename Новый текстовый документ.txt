@@ -1,0 +1,90 @@
+import sys
+from PyQt5 import Qt
+
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QLineEdit, QMessageBox
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import pyqtSlot
+from PyQt5.QtGui import QPainter, QBrush
+import Test_logic
+
+
+class App(QMainWindow):
+
+
+
+    def __init__(self):
+        super().__init__()
+        self.title = 'Game'
+        self.left = 10
+        self.top = 10
+        self.width = 500
+        self.height = 500
+        self.initUI()
+
+    def initUI(self):
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
+
+        # Create textbox
+        self.rowsText = QLineEdit(self)
+        self.rowsText.move(400, 30)
+        self.colsText = QLineEdit(self)
+        self.colsText.move(400, 80)
+        self.colorsCountText = QLineEdit(self)
+        self.colorsCountText.move(400, 130)
+        self.scoreText = QLineEdit(self)
+        self.scoreText.move(400, 180)
+
+
+        # Create a button in the window
+        self.startGame = QPushButton('Show text', self)
+        self.startGame.move(400,0)
+
+        # connect button to function on_click
+        self.startGame.clicked.connect(self.on_click)
+
+        self.show()
+
+    #@pyqtSlot()
+    def on_click(self):
+        brush = QBrush(Qt.SolidPattern)
+        self.qp = QPainter
+        self.qp.begin()
+        self.brush = QBrush(Qt.SolidPattern)
+        self.qp.setBrush(brush)
+        self.qp.drawRect(10, 15, 90, 60)
+       # self.rowCounts = self.rowsText.text()
+       # self.columnCounts = self.colsText.text()
+       # self.colorsCounts = self.colorsCountText.text()
+
+        #self.scoreText.setText("0")
+       # self.game = Test_logic.Game
+        #self.game.colorsCounts = self.colorsCounts
+        #self.game.columnCounts = self. columnCounts
+       # self.game.rowCounts = self.rowCounts
+        #self.game.createField()
+
+       # self.paint()
+
+
+    def paint(self):
+        if(self.game == None):
+            return
+        brush = QBrush(Qt.SolidPattern)
+        qp = QPainter
+        qp.begin(self)
+        qp.setBrush(brush)
+
+        self.scoreText.setText(self.game.score)
+        for y in range(self.game.rowCounts-1):
+            for x in range(self.game.columnCounts-1):
+                qp.drawEllipse(x * 25, y * 25, 25, 25)
+
+        qp.end()
+
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = App()
+    sys.exit(app.exec_())
