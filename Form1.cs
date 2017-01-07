@@ -18,7 +18,7 @@ namespace ClickmaniaFinal
         // Набор цветов для кружков
         private Brush[] brushes = new[] {Color.LightGray, Color.Blue, Color.Red, Color.Orange, Color.Green, Color.Magenta}.Select(c => new SolidBrush(c)).ToArray();
 
-        // Конструктор класса
+        // Конструктор класса 
         public Form1()
         {
             InitializeComponent(); // Инициализируем графику
