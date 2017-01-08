@@ -7,3 +7,6 @@ E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.Prope
 E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.csproj.GenerateResource.Cache
 E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.exe
 E:\VS10PRJ\Tasks\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.pdb
+D:\ProjectCode\Csharp\ClickmaniaFinal\ClickmaniaFinal\bin\Debug\ClickmaniaFinal.exe.config
+D:\ProjectCode\Csharp\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.exe
+D:\ProjectCode\Csharp\ClickmaniaFinal\ClickmaniaFinal\obj\Debug\ClickmaniaFinal.pdb
